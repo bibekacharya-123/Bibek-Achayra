@@ -8,7 +8,42 @@ function Projects() {
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
-       <ProjectCard src={viber} />
+        <ProjectCard
+          src={viber}
+          link={"https://playersworld.net/"}
+          h3="online gaming"
+          p="Online gaming links and websites"
+        />
+        <ProjectCard
+        src={viber}
+        link={"https://playersworld.net/"}
+        h3="online gaming"
+        p="Online gaming links and websites"
+      />
+      <ProjectCard
+      src={viber}
+      link={"https://playersworld.net/"}
+      h3="online gaming"
+      p="Online gaming links and websites"
+    />
+    <ProjectCard
+    src={viber}
+    link={"https://playersworld.net/"}
+    h3="online gaming"
+    p="Online gaming links and websites"
+  />
+  <ProjectCard
+  src={viber}
+  link={"https://playersworld.net/"}
+  h3="online gaming"
+  p="Online gaming links and websites"
+/>
+<ProjectCard
+src={viber}
+link={"https://playersworld.net/"}
+h3="online gaming"
+p="Online gaming links and websites"
+/>
       </div>
     </section>
   );

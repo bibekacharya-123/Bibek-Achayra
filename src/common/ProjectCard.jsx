@@ -1,11 +1,11 @@
 import React from 'react'
 
-function ProjectCard({src}) {
+function ProjectCard({src,link,h3,p}) {
   return (
-    <a href="https://playersworld.net/" target="blank">
-    <img src={src} className="hover" alt="gaming logo" />
-    <h3>Online gaming</h3>
-    <p>Online gaming links and websites</p>
+    <a href={link} target="blank">
+    <img src={src} className="hover" alt={`${h3}`} />
+    <h3>{h3}</h3>
+    <p>{p}</p>
   </a>
   )
 }

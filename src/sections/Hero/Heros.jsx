@@ -5,7 +5,7 @@ import heroImg from "../../assets/hero-img.png";
 import twitterLight from "../../assets/twitter-light.svg";
 import githubLight from "../../assets/github-light.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
-import CV from "../../assets/cv.pdf";
+import CV from "../../assets/bibek_cv[1].pdf";
 import { useTheme } from "../../common/ThemeContext";
 import moon from "../../assets/moon.svg";
 import sun from "../../assets/sun.svg";

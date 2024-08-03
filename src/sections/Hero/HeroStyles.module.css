@@ -84,3 +84,26 @@ button:active {
     align-items: center; /* Center align the description */
     gap: 20px;
 }
+@media (width >= 800px){
+    .container{
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        .hero{
+            max-width: 350;
+            width: 350;
+        }
+
+    }
+    @media (width >= 1400px){
+
+        
+        .hero{
+            max-width: 400;
+            width: 400;
+        }
+
+    }
+}
+
